@@ -1,3 +1,41 @@
+extenction
+es7
+tailwindcss
+
 front end
 
 npx create-react-app todo_list
+npm install -D tailwindcss
+npx tailwindcss init
+
+copy the tailwind config.js
+content: [
+    "./src/**/*.{js,jsx,ts,tsx}",
+  ],
+  theme: {
+    colors:{
+      'white': '#ffffff',
+      'blue': '#1C60FC',
+      'red': '#FC311C',
+      'black': '#000000',
+      'green': '#17fe00',
+      'background': '#E8E8E8',
+    },
+
+copy the index.css
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+npm install react-router-dom 
+
+npm install axios
+
+//session and cookies
+npm install express-session body-parser cookie-parser
+
+backend(server)
+
+create a server.js file
+npm init -y
+npm install express mysql cors nodemon cookie-parser jsonwebtoken
