@@ -39,3 +39,14 @@ backend(server)
 create a server.js file
 npm init -y
 npm install express mysql cors nodemon cookie-parser jsonwebtoken
+
+
+
+ <div className="mb-3">
+                <select name="title" value={values.title} onChange={handleInput} required>
+                  <option value="dr">Dr</option>
+                  <option value="mr">Mr</option>
+                  <option value="ms">Ms</option>
+                  <option value="mrs">Mrs</option>
+                </select>
+              </div>
